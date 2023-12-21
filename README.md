@@ -1,7 +1,7 @@
 # 9ja-FarmYard
 *(A final webstack portfolio project at ALX) 9ja-FarmYard,is a web App where farm produce can be posted for buying and selling*
 
-**Web URL:** [https://9ja-FarmYard](https://9ia-FarmYard)
+**Web URL:** [https://9ja-farm-yard.vercel.app/](https://9ja-farm-yard.vercel.app/)
 
 ![the_landing_page](https://github.com/Onahnelson/rough_work/blob/main/designs/9ja-FarmYard-landing-page.jpg)
 
