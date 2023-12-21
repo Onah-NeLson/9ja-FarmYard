@@ -1,20 +1,16 @@
 # 9ja-FarmYard
 *(A final webstack portfolio project at ALX) 9ja-FarmYard,is a web App where farm produce can be posted for buying and selling*
 
-**Web URL:** [https://9ja-FarmYard.vercel.app](https://9ia-FarmYard.vercel.app)
+**Web URL:** [https://9ja-FarmYard](https://9ia-FarmYard)
 
 ![the_landing_page](https://github.com/Onahnelson/rough_work/blob/main/designs/9ja-FarmYard-landing-page.jpg)
 
 ## About the project
-The web app is a market place for selling used items that someone else might be interested in, the seller uploads certain information such as the photos of it,
-description and price and the buyer can either comment on the post or send private message.
+The world is going global and Farmers cannot be left in the dark, they need to catch up with internet/cyber space,This project aims to achieve this. 9ja-FarmYard is a web app/market place where farm produce are bought and sold, there by help connecting farmers to their target customers/consumers.
 **Disclaimer:**
 1. Every user's security is in his hands. All users are to deal with people within their locality or close range and meet in public places before paying for
 the goods.
-3. The risk of purchasing spoilt or bad items is entirely the users. He/she must test the item very well (if possible) before paying for it.
-4. It is safer to buy from store owners but any user can sell or buy on the app, so everyone has got to be very careful while dealing with anyone, as we are
-not responsible for the outcome of the deal.
-
+2. 
 ### Features
 1. Logo and attractive user interface
 2. Contents are available to the public (Read only)
