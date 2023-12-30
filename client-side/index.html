@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/chatbot.css" />
     <title>9ja-FarmYard | Home</title>
   </head>
   <body>
@@ -293,6 +294,16 @@
             <img src="./assets/" alt="" />
           </div>
         </div>
+        <br>
+        <div class="container">
+          <h1>Ask Questions?</h1>
+          <div class="ask-input">
+              <input type="text" id="questionBox" 
+              onkeydown="if(event.keyCode == 13){chat()}"
+              placeholder="Ask Your Question Here!">
+          </div>
+          <p id="answerBox">Answer will Appear Here</p>
+      </div>
           
       </section>
       <section class="contact-us">
@@ -320,6 +331,7 @@
     </footer>
     <script src="./scripts/index.js"></script>
     <script src="./scripts/demo.js"></script>
+    <script src="./scripts/chatbot.js"></script>
   </body>
   </body>
 </html>

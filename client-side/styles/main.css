@@ -131,7 +131,7 @@ main{
 .more-items {
     align-content: end;
     background-color: rgba(12, 0, 54, 0.034);
-    text-align: right;
+    text-align: left;
     top: -30px;
 }
 
