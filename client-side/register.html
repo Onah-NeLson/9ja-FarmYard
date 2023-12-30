@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="./android-chrome-192x192.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="512x512"
+      href="./android-chrome-512x512.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="stylesheet" href="./styles/auth.css" />
+    <title>tradeQuick | Register</title>
+  </head>
+
+  <body>
+    <h1>Registration Form</h1>
+    <div class="form-container">
+      <div id="logo-on-form">
+        <a href="./index.html"><img src="./assets/logo.png" alt="logo" /></a>
+      </div>
+      <form action="">
+        <fieldset>
+          <legend>Personal Details</legend>
+          <div>
+            <label for="fullname">Full Name:</label>
+            <input
+              type="text"
+              id="fullname"
+              name="fullname"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="A valid email address"
+              required
+            />
+          </div>
+          <div>
+            <label for="gender">Gender:</label>
+            <select
+              type="text"
+              id="gender"
+              name="gender"
+              placeholder="Male"
+              required
+            >
+              <option value="">Select</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Your phone no."
+              required
+            />
+          </div>
+          <div>
+            <label for="age">Age:</label>
+            <input
+              type="number"
+              id="age"
+              name="age"
+              min="13"
+              max="100"
+              placeholder="(not made public)"
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Residential Address</legend>
+
+          <div>
+            <label for="address">Address:</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="Your compound/street"
+              required
+            />
+          </div>
+          <div>
+            <label for="town">Town:</label>
+            <input
+              type="text"
+              id="town"
+              name="town"
+              placeholder="The town where you live"
+              required
+            />
+          </div>
+          <div>
+            <label for="city">City:</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="Your current city"
+              required
+            />
+          </div>
+          <div>
+            <label for="state">State:</label>
+            <input
+              type="text"
+              id="state"
+              name="state"
+              placeholder="The state you reside in"
+              required
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Create Password</legend>
+          <div class="password-container">
+            <label for="password">Choose Password:</label>
+            <span
+              ><input
+                type="password"
+                id="password"
+                pattern="[a-z0-5]{8,}"
+                name="password"
+                placeholder="Create new password"
+                required />
+              <img src="./assets/show-password.png" alt="Show Password"
+            /></span>
+          </div>
+          <div>
+            <label for="password">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirm-password"
+              placeholder="Enter the same password"
+              required
+            />
+          </div>
+        </fieldset>
+        <div class="inline">
+          <input
+            type="checkbox"
+            id="terms-and-conditions"
+            name="terms-and-conditions"
+            required
+          />
+          <label for="terms-and-conditions"
+            >I accept the <a href="./terms.html">terms and conditions</a> of
+            using tradeQuick.</label
+          >
+        </div>
+        <button type="submit">Create Account</button>
+        <div class="redirection-links">
+          <p>Already have an account? <a href="./login.html">Login here</a></p>
+        </div>
+        <hr />
+        <p>Sign up with</p>
+        <div class="third-party-auth">
+          <fieldset>
+            <legend>Google</legend>
+            <div class="google-auth">
+              <img src="./assets/google.svg" alt="Google icon" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Facebook</legend>
+            <div class="facebook-auth">
+              <img src="./assets/facebook-colored.svg" alt="Facebook icon" />
+            </div>
+          </fieldset>
+        </div>
+        <div class="back-home-btn">Go <a href="./index.html">back home</a></div>
+      </form>
+    </div>
+  </body>
+</html>
