@@ -12,14 +12,15 @@ The world is going global and Farmers cannot be left in the dark, they need to c
 the goods.
 2. 
 ### Features
-1. Logo and attractive user interface
-2. Contents are available to the public (Read only)
-3. No transaction except authenticated
-4. User sign up and authentication
-5. User account management (viewing, updating and deleting own account)
-6. Items management (viewing, uploading, editing and deleting own items, and marking the sold ones as sold)
-7. Search for items (public)
-8. Social interaction
+1. Chatbot for customers assistance 
+2. Logo and attractive user interface
+3. Contents are available to the public (Read only)
+4. No transaction except authenticated
+5. User sign up and authentication
+6. User account management (viewing, updating and deleting own account)
+7. Items management (viewing, uploading, editing and deleting own items, and marking the sold ones as sold)
+8. Search for items (public)
+9. Social interaction
   - Buyers can comment on items displayed for sale
   - Buyers can like/dislike items displayed for sale
   - Chatting feature available for interaction purpose
@@ -72,7 +73,7 @@ To install and run the app locally or in a development environment, follow the i
 :$ git clone https://github.com/Onah-NeLson/9ja-FarmYard.git
 
 # Move into the directory
-:$ cd 9ia-FarmYard
+:$ cd 9ja-FarmYard
 
 # Open it with your code editor (VScode for instance)
 :$ code .
