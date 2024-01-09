@@ -7,10 +7,12 @@
 
 ## About the project
 The world is going global and Farmers cannot be left in the dark, they need to catch up with internet/cyber space,This project aims to achieve this. 9ja-FarmYard is a web app/market place where farm produce are bought and sold, there by help connecting farmers to their target customers/consumers.
-**Disclaimer:**
-1. Every user's security is in his hands. All users are to deal with people within their locality or close range and meet in public places before paying for
-the goods.
-2. 
+**Warning:**
+1. products/items should be well assessed, at points of delivery before exit.
+2. extra charges may be incured depending on buyers location for delivery.
+3. Security of items/produuce after delivery is been made is solely the responsibilty of buyers/users.
+4. All transactions/business should be done within the locality closest to buyers/users.
+
 ### Features
 1. Chatbot for customers assistance 
 2. Logo and attractive user interface
@@ -60,10 +62,10 @@ Version 1.0 of the app is designed to be used within Nigeria only
 - `MySQL`
 
 ### Third Party Services
-1. Cloudinary (for photo uploads)
-2. Google authentication
-3. Facebook authentication
-4. Brevo (mailing/SMS services)
+1. Google authentication 
+2. Facebook authentication
+3. Cloudinary (for photo uploads)
+4. Mailing/SMS services
 
 ## Usage/Installation
 To install and run the app locally or in a development environment, follow the instructions below:
